@@ -18,15 +18,15 @@
   },
   "employees": [
     {
-      "firstName": "test",
-      "lastName": "teste",
-      "email": "ddd",
-      "dob": "2023-05-01T15:00:00.000Z",
-      "gender": "",
+      "firstName": "test111",
+      "lastName": "user1aaa",
+      "email": "test@gmail.com",
+      "dob": "2023-02-01T15:00:00.000Z",
+      "gender": "male",
       "education": "Matric",
-      "company": "dada",
+      "company": "google",
       "experience": 123,
-      "package": 123,
+      "package": 345,
       "id": 1
     }
   ]
