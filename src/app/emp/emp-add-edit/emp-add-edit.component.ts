@@ -2,7 +2,7 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 
-import { CoreService } from '../core/core.service';
+import { CoreService } from '../../shared/core/core.service';
 import { EmployeeService } from '../services/employee.service';
 
 @Component({
