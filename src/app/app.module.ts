@@ -8,12 +8,16 @@ import { NavbarComponent } from '../common/navbar/navbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmpAddEditComponent } from './emp/emp-add-edit/emp-add-edit.component';
+import { ItemAddEditComponent } from './item/item-add-edit/item-add-edit.component';
 import { MaterialModule } from './shared/material/material.module';
-import { ItemListComponent } from './item/item-list/item-list.component';
-import { ItemComponent } from './item/item.component';
 
 @NgModule({
-  declarations: [AppComponent, EmpAddEditComponent, NavbarComponent, ItemListComponent, ItemComponent],
+  declarations: [
+    AppComponent,
+    EmpAddEditComponent,
+    NavbarComponent,
+    ItemAddEditComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
